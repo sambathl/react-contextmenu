@@ -33,8 +33,6 @@ export default class ContextMenuTrigger extends Component {
     handleMouseDown = (event) => {
         if (this.props.holdToDisplay >= 0 && event.button === 0) {
             event.persist();
-            event.stopPropagation();
-
             this.mouseDownTimeoutId = setTimeout(
                 () => this.handleContextClick(event),
                 this.props.holdToDisplay
