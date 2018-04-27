@@ -1,5 +1,5 @@
 {
-  "name": "react-contextmenu",
+  "name": "react-contextmenu-delat0",
   "version": "2.9.2",
   "description": "Context Menu implemented in React",
   "main": "modules/index.js",
@@ -34,16 +34,6 @@
     "start:server": "http-server public -p 3000",
     "prepublish": "npm run build"
   },
-  "author": "Vivek Kumar Bansal <contact@vkbansal.me>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vkbansal/react-contextmenu.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vkbansal/react-contextmenu/issues"
-  },
-  "homepage": "https://github.com/vkbansal/react-contextmenu",
   "dependencies": {
     "classnames": "^2.2.5",
     "object-assign": "^4.1.0"
